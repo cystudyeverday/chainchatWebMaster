@@ -1,0 +1,102 @@
+@import "~antd/dist/antd.css";
+@import "~react-chat-elements/dist/main.css";
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+  width: 350px;
+  margin-left: 20px;
+}
+
+.App-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.side-logo {
+  height: 32px;
+  margin: 16px;
+}
+
+.afid-info {
+  width: 600px;
+  word-break: break-all;
+}
+
+.chat-input {
+ float: left;
+}
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.chat-body {
+  height: 70vh;
+  min-width: 140px;
+  overflow: auto;
+}
+.message-list{
+  height: 70vh;
+  min-width: 140px;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.chat-actions {
+  display: flex;
+  width: 100%;
+}
+
+.add-friend-btn{
+    width: 100%;
+    margin-top: 20px;
+}
